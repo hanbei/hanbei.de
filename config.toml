@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "hanbei's"
 theme = "blackburn"
 
+[params]
+  highlightjs = "androidstudio"
+
 [menu]
   # Shown in the side menu.
   [[menu.main]]
