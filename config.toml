@@ -1,10 +1,13 @@
 baseurl = "http://www.hanbei.de"
 languageCode = "en-us"
-title = "hanbei's"
-theme = "blackburn"
+title = "hanbei"
+theme = "casper"
 
 [params]
-  highlightjs = "androidstudio"
+  githubName = "hanbei"
+  #logo = "images/logo.png"
+  cover = "images/cover.jpg"
+  linkedinName = "florian-schulz-580b3491"
 
 [menu]
   # Shown in the side menu.
@@ -15,11 +18,11 @@ theme = "blackburn"
     identifier = "home"
     url = "/"
   [[menu.main]]
-    name = "Disclaimer"
+    name = "Legal Info"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 1
     identifier = "disclaimer"
-    url = "/pages/disclaimer"
+    url = "disclaimer"
 
 [social]
   # Link your social networking accouns to the side menu

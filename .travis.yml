@@ -1,14 +1,14 @@
 language: go
 go:
-  - 1.5.1
+- 1.5.1
 sudo: required
 env:
   global:
-    - "FTP_USER=user"
-    - "FTP_PASSWORD=password"
+  - secure: y8dK5WBKxEhsPCcUamZOSz1QRg0sCoeoTG1vtSdfcmE/Ss0wvoMj7gvznS0Lm1Ct5rkmB/AxiKvdxziEG1WcjUnY7uOCKkz/ufU0KS9ALtH4UO5x+huXQqwvSGmnK12rryJAQE9BOGuZD34BF8uHHYgv8mmuwMjwrqxGbmGxQlsYYvRYKiZ2Gpv30kQXwQWWgcgYxq1nmUGADBcOo07wgG0ajPFSheYyuhRxoTns8ebvDyo0F7PrIwif0To+P3c+ChcwSYgoAX+RrvUhuaREgU1K1aQg/SF2vrBTlBdxlyG4eIAr1Isr3Ib/zuP0JSq1j7Rf+htR58D6/Dq7lZzLn1pZmxJPk5c0PGt0Io2J7y/NQaxX+0TJmWB6awXEP4zk7iFLK1f1BaF/KTeVTxmZ1R+fD1TuRYt9/D0T+b6AfP6JCBdVXFtZaVKdnFIlCzXDIvNfSIjxkxWhR8i4dZhaZUV4dvdjuP/O22R29sG3lFX91HdrELWsz8RzflhK9LD2NT7T6doevPV1HL9joZxlDU0em7GEj0L2w9lPX4js63HyXVNAGY6HGJtYKf4l+fp03L7fTRmlKJ132Zo9VVQYe3/8nqKIzBAoi9vaJ2LVfAdRKKGqwLTyPo1q3c3fsVXkDqz82GyczfydMFkga5j9nNkLuKnb3bCSTTWw12E4Sf0=
+  - secure: QtT17t+237GvPBMioENn+YFCpK+g8FSucEBHQH8b8YfuhcnZ5fOv8PkaZuDXO2bU1WIv/Z0gjMS7v4pF+5V2QLK1caGmR9hFFGVjY1kjzD5CnlMjGi9vvN8zHZN1a4nJPQp6tXmRpvpRtYxGT+QBsHUDIpkkheq0b2T/Y1NVCAaMZV6PwWSGeSm1ia+RXHRBn0veXS5OwBIgFoYJA6dBxSPVIDuL1+GHdsFllpHMSsxb1SscJNZiXW/6gozZVm9uggh7qDojyNckCC3/dh7ENyVXp+7CaSn1o1AdUkSlgNSLMs/U4r24WCGS4Zc31nI9L8QVqRTsZxnyvtOvfuWn3lxG0WtvSq31PpXgR2ctAnfSuoED/7HKQDhHT43+yWyTpzo7gGmgsiwxow9sBCeIitMrtAsRL0j58Ec96onfvQQkOJ0vx0oowYj8WwnKroNb1HdJGU+QsXMN/j3tYuhR3UWV2ke+M9j8Zjys5kHwAB9nZdCIlhGgjFkwPhVmDCpc0ieW0T4C8Tp4ccVYOlhIVLaWqlVAmx/m39FTXAGMzhnVIudnYNk+bo1LSQNehbzysj7Lhbov0nz3d7Hq1uj1OeGcBwiYmSuWxNPvq6oEbh40Gxaki25vWqaCnzK5RziNA0y0C5osGYcT9Lldss5aEozrCnobAp62Tcrkrf0Sc9I=
 git:
   submodules: false
 install:
-  - sudo pip install Pygments
-  - go get github.com/spf13/hugo
+- sudo pip install Pygments
+- go get github.com/spf13/hugo
 script: bash ./deploy.sh
