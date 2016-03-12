@@ -4,6 +4,7 @@ description = ""
 tags = ["java", "junit","testing"]
 title = "Exceptions in Tests"
 topic = ["software development","testing"]
+author="hanbei"
 
 +++
 
@@ -11,7 +12,7 @@ What I often encounter in tests is something like:
 
     public void testMethod() {
       try {
-        someTestCode(); 
+        someTestCode();
       catch(SomeException e) {
         fail(e.getMessage)
       }
@@ -29,7 +30,7 @@ Another often encountered snippet is:
         // all ok
       }
     }
-	
+
 
 This was an idiom in JUnit3 to test that an exception is thrown. In times of JUnit4 the idiom changed to:
 

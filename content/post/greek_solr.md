@@ -4,6 +4,7 @@ description = ""
 tags = ["solr", "unicode"]
 title = "Mapping greek and cyrillic character to latin in Solr"
 topics = ["software development"]
+author="hanbei"
 
 +++
 Today I created a extensive mapping list of unicode to latin characters for solr. It contains some general accent mapping to the normal letter e.g. é -> ue and a mapping for greek and cyrillic characters.
@@ -13,5 +14,3 @@ If you show the files in your browser it may be possible that you need to manual
 * Accent Mapping
 * Greek mapping
 * Cyrillic mapping
-
-
