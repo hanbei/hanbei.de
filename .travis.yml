@@ -1,0 +1,10 @@
+language: go
+go:
+  - 1.5.1
+sudo: required
+git:
+  submodules: false
+install:
+  - sudo pip install Pygments
+  - go get github.com/spf13/hugo
+script: bash ./deploy.sh
