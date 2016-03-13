@@ -1,4 +1,4 @@
-baseurl = "http://staging.hanbei.de"
+baseurl = "http://staging.hanbei.de/"
 languageCode = "en-us"
 title = "hanbei"
 theme = "casper"
