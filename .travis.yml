@@ -11,4 +11,6 @@ git:
 install:
 - sudo pip install Pygments
 - go get github.com/spf13/hugo
-script: bash ./deploy.sh
+script: hugo -t casper # if using a theme, replace by `hugo -t <yourtheme>
+after_success:
+  bash ./deploy.sh
