@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Build the project.
-find public -exec echo {} \;
+cd public
+find . -type f -exec curl --ftp-create-dirs -T {} -u $FTP_USER:$FTP_PASS ftp://ftp.hanbei.de/staging/{} \;
