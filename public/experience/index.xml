@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experience-rsses on My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/experience/index.xml</link>
+    <description>Recent content in Experience-rsses on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Nov 2016 22:20:20 +0100</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/experience/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>R&amp;E Media GmbH</title>
+      <link>http://replace-this-with-your-hugo-site.com/experience/remedia/</link>
+      <pubDate>Fri, 04 Nov 2016 22:20:20 +0100</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/experience/remedia/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Content content&lt;/li&gt;
+&lt;li&gt;other content content&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ITyX</title>
+      <link>http://replace-this-with-your-hugo-site.com/experience/ityx/</link>
+      <pubDate>Fri, 04 Nov 2016 22:51:59 +0100</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/experience/ityx/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&amp;Uuml;berf&amp;uuml;hren von Text Mining Methoden in marktreife Produkte&lt;/li&gt;
+&lt;li&gt;Entwicklung einer Relationsextraktion aus gescannten unstrukturierten Texten&lt;/li&gt;
+&lt;li&gt;Verbesserung der Texterkennung von OCR Methoden durch entfernen von Strukturartefakten in Formularen&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fraunhofer IAIS</title>
+      <link>http://replace-this-with-your-hugo-site.com/experience/fraunhofer/</link>
+      <pubDate>Fri, 04 Nov 2016 22:57:59 +0100</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/experience/fraunhofer/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Technische Leitung für das Backend der &lt;a href=&#34;http://www.ddb.de &#34;&gt;Deutschen Digitalen Bibliothek&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Entwurf und Implementierung der Suchstrategie für die Deutsche Digitale Bibliothek auf Basis von Apache Solr.&lt;/li&gt;
+&lt;li&gt;Forschung und Entwicklung einer Bibliothek zur Berechnung von Conditional Random Fields&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fraunhofer IAIS</title>
+      <link>http://replace-this-with-your-hugo-site.com/experience/fraunhofer2/</link>
+      <pubDate>Fri, 04 Nov 2016 23:00:47 +0100</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/experience/fraunhofer2/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Entwurf und Implementierung eines autonomen Agentensystems zur Unterstüzung von Schülern in einem Online Learning Environment.&lt;/li&gt;
+&lt;li&gt;Schreiben von EU-Projekt Berichten und vorstellen der Projektergebnisse in den jährlichen Treffen der EU Kommission.&lt;/li&gt;
+&lt;li&gt;Diplomarbeit über Themenveränderungen in Texten über die Zeit.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Universität Bonn</title>
+      <link>http://replace-this-with-your-hugo-site.com/experience/unibonn/</link>
+      <pubDate>Fri, 04 Nov 2016 23:05:14 +0100</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/experience/unibonn/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Entwicklungs eines Systems zur Steuerung von Diskussionen über Handheld Devices
+(&lt;a href=&#34;http://sam.iai.uni-bonn.de/projects/smartdiscuss/index.html &#34;&gt;SmartDiscus&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Unterstützung bei der Entwicklung von Eclipse Plugins zur statischen Analyse von Sourcecode und Refactorings.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Startext</title>
+      <link>http://replace-this-with-your-hugo-site.com/experience/startext/</link>
+      <pubDate>Fri, 04 Nov 2016 23:08:44 +0100</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/experience/startext/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Entwicklung des Offline Clients für das
+&lt;a href=&#34;http://www.startext.de/projekte/cms/cms &#34;&gt;CMS&lt;/a&gt; der Berliner Wasser Betriebe auf Basis von Lucene.&lt;/li&gt;
+&lt;li&gt;Einführung von Unit-Tests.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
