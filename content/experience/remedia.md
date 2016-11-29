@@ -7,5 +7,4 @@ jobtitle = "Data Engineer, Senior Software Developer"
 website = "http://www.re-media.eu"
 weight = 1
 +++
-* Content content
-* other content content
+* Betreuung und Entwicklung des Backendsystem zur Metasuche von Produktangeboten.
