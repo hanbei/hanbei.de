@@ -23,17 +23,3 @@ h6,
   line-height: 1.1;
   color: inherit;
 }
-
-.container {
-  width: 80%;
-}
-
-h3 small {
-  font-size: 60%;
-  color: #bdbdbd;
-}
-
-.inline li {
-  display: inline;
-  list-style-type: none;
-}
