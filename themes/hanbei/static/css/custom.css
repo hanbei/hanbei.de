@@ -23,3 +23,11 @@ h6,
   line-height: 1.1;
   color: inherit;
 }
+
+.vspace {
+  height: 1em;
+}
+
+.vspace2 {
+  height: 2em;
+}
