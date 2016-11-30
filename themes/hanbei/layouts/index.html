@@ -38,58 +38,12 @@
     {{ partial "navigation.html" . }}
 
     <div class="container-fluid">
-    {{ partial "aboutme.html" . }}
+        {{ partial "aboutme.html" . }}
 
-    <a name="values"></a>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <p class="text-center"><b>Streben nach Perfektion</b></p>
-                <p class="text-justify">
-                  Bedeutet f&uuml;r mich immer die bestm&ouml;gliche Qualit&auml;t abzuliefern.
-                  Bestehende L&ouml;sungen in Frage zu stellen und eine Bessere zu suchen.
-                  Problemen muss auf den Grund gegangen werden und nicht nur die
-                  Symptome bek&auml;mpft werden.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <p class="text-center"><b>Kontinuierliches Lernen</b></p>
-                <p class="text-justify">
-                  Bedeutet neue Dinge zu lernen und auszuprobieren. Bestehendes
-                  kann und soll in  Frage gestellt werden und wenn n&ouml;tig verbessert.
-                  Fehler k&ouml;nnen passieren und sind nur schlimm wenn aus ihnen
-                  nichts gelernt wird.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <p class="text-center"><b>Verantwortung &uuml;bernehmen</b></p>
-                <p class="text-justify">
-                  Zu einem Fehler den man begangen hat soll man stehen.
-                  Auch wenn es nicht unbedingt Spaß macht m&uuml;ssen
-                  Dinge zu Ende gebracht werden.
-                </p>
-            </div>
-        </div>
-        <div class="help-block hidden-sm hidden-xs">&nbsp;</div>
-        <!--<div class="row">
-            <div class="col-md-4 col-md-push-2 text-center">
-                <b>Value 4</b>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                </p>
-            </div>
-            <div class="col-md-4 col-md-push-2 text-center">
-                <b>Value 5</b>
-                <p>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-            </div>
-        </div>-->
-    </div>
-    <div class="help-block">&nbsp;</div>
+        <a name="values"></a>
+        {{ partial "values.html" . }}
+
+        <div class="help-block">&nbsp;</div>
     </div>
     {{ partial "experience.html" . }}
 </body>
