@@ -2,7 +2,7 @@
 date = "2016-11-04T23:05:14+01:00"
 duration = "Nov. 2006 - Jun. 2008"
 jobtitle = "Werksstudent"
-title = "Universität Bonn"
+title = "Universit&auml;t Bonn"
 type = "experience"
 website = "http://sam.iai.uni-bonn.de/"
 weight = 5
