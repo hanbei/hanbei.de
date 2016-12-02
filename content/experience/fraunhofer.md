@@ -7,6 +7,6 @@ type = "experience"
 website = "https://www.iais.fraunhofer.de/"
 weight = 3
 +++
-* Technische Leitung f&uuml;r das Backend der <a href="http://www.ddb.de ">Deutschen Digitalen Bibliothek</a>
-* Entwurf und Implementierung der Suchstrategie f&uuml;r die Deutsche Digitale Bibliothek auf Basis von Apache Solr.
+* Technische Leitung für das Backend der <a href="http://www.ddb.de ">Deutschen Digitalen Bibliothek</a>
+* Entwurf und Implementierung der Suchstrategie für die Deutsche Digitale Bibliothek auf Basis von Apache Solr.
 * Forschung und Entwicklung einer Bibliothek zur Berechnung von Conditional Random Fields

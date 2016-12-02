@@ -7,16 +7,16 @@
         </div>
         {{ range .Data.Pages }} {{ if eq .Type "experience"}}
         <div class="col-xs-12 col-md-12">
-            <h4>{{ .Params.jobtitle }}</h4>
+            <h4>{{ .Params.jobtitle | html }}</h4>
         </div>
         <div class="col-xs-6 col-md-6">
-            <h5><a href="{{ .Params.website }}">{{ .Title }}</a></h5>
+            <h5><a href="{{ .Params.website }}">{{ .Title | html }}</a></h5>
         </div>
         <div class="col-xs-6 col-md-6">
-            <h5 class="text-right text-muted">{{ .Params.duration }}</h5>
+            <h5 class="text-right text-muted">{{ .Params.duration | html }}</h5>
         </div>
         <div class="col-xs-12 col-md-12">
-            {{ .Content }}
+            {{ .Content | html }}
         </div>
         {{ end }}
         <div class="help-block">&nbsp;</div>
