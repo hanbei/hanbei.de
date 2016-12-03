@@ -11,9 +11,21 @@
 
         <div class="navbar-collapse collapse" id="2891cc6cf744b6f0bffc1a01fa8996c6db23799c">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/#values">Werte</a></li>
-                <li><a href="/experience">Erfahrung</a></li>
+                <li><a href="
+                  {{ if eq .Site.Language.Lang "en" }}
+                    {{ printf "%s%s" .Site.BaseURL "#values" | printf "%s" }}
+                  {{ else }}
+                    {{ printf "%s%s/%s" .Site.BaseURL .Site.Language.Lang "#values" | printf "%s" }}
+                  {{ end }}">{{ T "values" }}</a></li>
+                <li><a href="{{ if eq .Site.Language.Lang "en" }}
+                  {{ printf "%s%s" .Site.BaseURL "experience" | printf "%s" }}
+                {{ else }}
+                  {{ printf "%s%s/%s" .Site.BaseURL .Site.Language.Lang "experience" | printf "%s" }}
+                {{ end }}">{{ T "experience" }}</a></li>
                 <!-- <li><a href="#projects">Projekte</a></li> -->
+                <li>
+
+                </li>
             </ul>
         </div>
     </div>

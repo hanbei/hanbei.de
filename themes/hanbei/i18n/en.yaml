@@ -1,0 +1,31 @@
+- id: values
+  translation: Values
+
+- id: experience
+  translation: Experience
+
+- id: excellence_header
+  translation: Striving for excellence
+
+- id: excellence
+  translation: |
+    Means for me always the best possible quality deliver. Examine existing
+    solutions and find a better one. Problems must be taken to the bottom
+    and not only the symptoms must be combated.
+
+- id: learning_header
+  translation: Continous learning
+
+- id: learning
+  translation: |
+    Means new things to learn and try out. Existing can and should be
+    questioned and improved if necessary. Mistakes can happen and are only
+    bad when they learn nothing.
+
+- id: responsibility_header
+  translation: Responsibility
+
+- id: responsibility
+  translation: |
+    Responsibility must be granted and accepted. There should be a mistake.
+    Even if it is not necessarily fun things have to be done.

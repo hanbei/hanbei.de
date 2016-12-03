@@ -1,0 +1,33 @@
+- id: values
+  translation: Werte
+
+- id: experience
+  translation: Erfahrung
+
+- id: excellence_header
+  translation: Streben nach Perfektion
+
+- id: excellence
+  translation: |
+    Bedeutet für mich immer die bestmögliche Qualität abzuliefern.
+    Bestehende Lösungen in Frage zu stellen und eine Bessere zu suchen.
+    Problemen muss auf den Grund gegangen werden und nicht nur die
+    Symptome bekämpft werden.
+
+- id: learning_header
+  translation: Kontinuierliches Lernen
+
+- id: learning
+  translation: |
+    Bedeutet neue Dinge zu lernen und auszuprobieren. Bestehendes kann und
+    soll in Frage gestellt werden und wenn nötig verbessert. Fehler
+    können passieren und sind nur schlimm wenn aus ihnen nichts gelernt wird.
+
+- id: responsibility_header
+  translation: Verantwortung übernehmen
+
+- id: responsibility
+  translation: |
+    Verantwortung muss gewährt werden und übernommen werden.
+    Zu einem Fehler soll man stehen. Auch wenn es nicht unbedingt Spaß
+    macht müssen Dinge zu Ende gebracht werden.
