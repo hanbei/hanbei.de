@@ -10,12 +10,32 @@
         </div>
 
         <div class="navbar-collapse collapse" id="2891cc6cf744b6f0bffc1a01fa8996c6db23799c">
+            <!-- Split button -->
+            <form class="navbar-form navbar-left" role="search">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default">{{ i18n "language1" }}</button>
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="
+                          {{ $currentPath := replace .Permalink .Site.BaseURL "" }}
+                          {{ if eq .Site.Language.Lang "en" }}
+                            {{ print .Site.BaseURL "de/" $currentPath }}
+                          {{ else }}
+                            {{ print .Site.BaseURL (replace $currentPath "de" "") }}
+                          {{ end }}
+                          ">{{ i18n "language2" }}</a></li>
+                    </ul>
+                </div>
+            </form>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="
                   {{ if eq .Site.Language.Lang "en" }}
-                    {{ printf "%s%s" .Site.BaseURL "#values" | printf "%s" }}
+                    {{ printf "%s%s" .Site.BaseURL "" | printf "%s" | chomp }}
                   {{ else }}
-                    {{ printf "%s%s/%s" .Site.BaseURL .Site.Language.Lang "#values" | printf "%s" }}
+                    {{ printf "%s%s/%s" .Site.BaseURL .Site.Language.Lang "" | printf "%s" | chomp }}
                   {{ end }}">{{ T "values" }}</a></li>
                 <li><a href="{{ if eq .Site.Language.Lang "en" }}
                   {{ printf "%s%s" .Site.BaseURL "experience" | printf "%s" }}

@@ -1,3 +1,9 @@
+- id: language1
+  translation: Deutsch
+
+- id: language2
+  translation: Englisch
+
 - id: values
   translation: Werte
 
