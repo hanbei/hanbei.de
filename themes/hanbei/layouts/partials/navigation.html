@@ -19,14 +19,12 @@
                         <span class="sr-only">Toggle Dropdown</span>
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a href="
-                          {{ $currentPath := replace .Permalink .Site.BaseURL "" }}
+                        <li><a href="{{ $currentPath := replace .Permalink .Site.BaseURL "" }}
                           {{ if eq .Site.Language.Lang "en" }}
                             {{ print .Site.BaseURL "de/" $currentPath }}
                           {{ else }}
                             {{ print .Site.BaseURL (replace $currentPath "de" "") }}
-                          {{ end }}
-                          ">{{ i18n "language2" }}</a></li>
+                          {{ end }}">{{ i18n "language2" }}</a></li>
                     </ul>
                 </div>
             </form>

@@ -10,7 +10,7 @@
             <h4>{{ .Params.jobtitle }}</h4>
         </div>
         <div class="col-xs-6 col-md-6">
-            <h5><a href="{{ .Params.website }}">{{ .Title }}</a></h5>
+            <h5><a href="{{ .Params.website }}">{{ .Title | safeHTML }}</a></h5>
         </div>
         <div class="col-xs-6 col-md-6">
             <h5 class="text-right text-muted">{{ .Params.duration }}</h5>
