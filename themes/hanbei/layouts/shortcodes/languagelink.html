@@ -1,0 +1,5 @@
+{{ if eq .Site.Language.Lang "en" }}
+  {{ printf "%s%s" .Site.BaseURL ".Get 0" | printf "%s" }}
+{{ else }}
+  {{ printf "%s%s/%s" .Site.BaseURL .Site.Language.Lang ".Get 0" | printf "%s" }}
+{{ end }}

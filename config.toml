@@ -3,11 +3,23 @@ baseurl = "http://staging.hanbei.de/"
 title = "My New Hugo Site"
 theme = "hanbei"
 
-[params]
-  image = "images/me.jpeg"
-  me = "Florian Schulz - software and data engineer"
-  slogan = "Evolving software systems to their full potential"
+DefaultContentLanguage = "en"
 
+[Languages.en]
+    weight = 1
+    title = "Test (en)"
+    me = "Florian Schulz - software and data engineer"
+    slogan = "Software Systeme"
+
+
+[Languages.de]
+    weight = 2
+    title = "Test (de)"
+    me = "Florian Schulz - software and data engineer"
+    slogan = "Software Systeme"
+
+[params]
+  image = "/images/me.jpeg"
   mail = "hanbei@hanbei.de"
   linkedin = "https://de.linkedin.com/in/florian-schulz-580b3491"
   github = "https://github.com/hanbei"

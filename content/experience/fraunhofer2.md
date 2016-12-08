@@ -8,5 +8,5 @@ website = "https://www.iais.fraunhofer.de/"
 weight = 4
 +++
 * Entwurf und Implementierung eines autonomen Agentensystems zur Unterst&uuml;zung von Sch&uuml;lern in einem Online Learning Environment.
-* Schreiben von EU-Projekt Berichten und vorstellen der Projektergebnisse in den j&auml;hrlichen Treffen der EU Kommission.
+* Schreiben von EU-Projekt Berichten und vorstellen der Projektergebnisse in den j&&auml;uml;hrlichen Treffen der EU Kommission.
 * Diplomarbeit &uuml;ber Themenver&auml;nderungen in Texten &uuml;ber die Zeit.

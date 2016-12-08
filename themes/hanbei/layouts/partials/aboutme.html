@@ -14,22 +14,19 @@
                         <div class="genericon genericon-mail" style="font-size:2em"></div>
                     </a>
                 </li>
-                {{ end }}
-                {{ if (isset .Site.Params "github") }}
+                {{ end }} {{ if (isset .Site.Params "github") }}
                 <li>
                     <a href="{{ .Site.Params.github }}">
                         <div class="genericon genericon-github" style="font-size:2em"></div>
                     </a>
                 </li>
-                {{ end }}
-                {{ if (isset .Site.Params "linkedin") }}
+                {{ end }} {{ if (isset .Site.Params "linkedin") }}
                 <li>
                     <a href="{{ .Site.Params.linkedin }}">
                         <div class="genericon genericon-linkedin" style="font-size:2em"></div>
                     </a>
                 </li>
-                {{ end }}
-                {{ if (isset .Site.Params "twitter") }}
+                {{ end }} {{ if (isset .Site.Params "twitter") }}
                 <li>
                     <a href="{{ .Site.Params.twitter }}">
                         <div class="genericon genericon-twitter" style="font-size:2em"></div>
@@ -45,6 +42,3 @@
         </div>
     </div>
 </div>
-<div class="help-block">&nbsp;</div>
-<div class="help-block">&nbsp;</div>
-<div class="help-block">&nbsp;</div>
