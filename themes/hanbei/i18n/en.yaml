@@ -15,23 +15,24 @@
 
 - id: excellence
   translation: |
-    Means for me always the best possible quality deliver. Examine existing
-    solutions and find a better one. Problems must be taken to the bottom
-    and not only the symptoms must be combated.
+    Always deliver the best quality possible. Challenge existing
+    solutions and find a better one. Find the root cause of a problem
+    don't just fix the symptoms.
 
 - id: learning_header
   translation: Continous learning
 
 - id: learning
   translation: |
-    Means new things to learn and try out. Existing can and should be
-    questioned and improved if necessary. Mistakes can happen and are only
-    bad when they learn nothing.
+    Learn and try out new things every day. Anything established can and should be
+    questioned and if necessary improved. Mistakes can happen and are only
+    bad when nothing is learnt from them.
 
 - id: responsibility_header
   translation: Responsibility
 
 - id: responsibility
   translation: |
-    Responsibility must be granted and accepted. There should be a mistake.
-    Even if it is not necessarily fun things have to be done.
+    Responsibility means to do even non fun things thoroughly. If you make a
+    mistake admit it. Responsibility must not only be accepted but must be
+    granted also.
