@@ -10,6 +10,9 @@
 - id: experience
   translation: Experience
 
+- id: skills
+  translation: technologies
+
 - id: excellence_header
   translation: Striving for excellence
 
