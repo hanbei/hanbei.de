@@ -6,7 +6,8 @@ title = "Fraunhofer IAIS"
 type = "experience"
 website = "https://www.iais.fraunhofer.de/"
 weight = 3
+skills=["Solr","lucene","XSLT","conditional random fields","REST","JAX-RS"]
 +++
-* Technische Leitung f&uuml;r das Backend der <a href="http://www.ddb.de ">Deutschen Digitalen Bibliothek</a>
+* Übernahme der technischen Leitung f&uuml;r das Backend der <a href="http://www.ddb.de ">Deutschen Digitalen Bibliothek</a> mit finalem Livegang.
 * Entwurf und Implementierung der Suchstrategie f&uuml;r die Deutsche Digitale Bibliothek auf Basis von Apache Solr.
 * Forschung und Entwicklung einer Bibliothek zur Berechnung von Conditional Random Fields

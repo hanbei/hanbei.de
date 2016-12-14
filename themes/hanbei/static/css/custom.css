@@ -31,3 +31,12 @@ h6,
 .vspace2 {
   height: 2em;
 }
+
+.skill {
+  border: 0px;
+}
+
+.panel-default > .skill {
+  background: #FFF;
+  border: 0px;
+}
