@@ -8,6 +8,6 @@ website = "https://www.iais.fraunhofer.de/"
 weight = 3
 skills=["Solr","lucene","XSLT","conditional random fields","REST","JAX-RS"]
 +++
-* Übernahme der technischen Leitung f&uuml;r das Backend der <a href="http://www.ddb.de ">Deutschen Digitalen Bibliothek</a> mit finalem Livegang.
-* Entwurf und Implementierung der Suchstrategie f&uuml;r die Deutsche Digitale Bibliothek auf Basis von Apache Solr.
-* Forschung und Entwicklung einer Bibliothek zur Berechnung von Conditional Random Fields
+* Took over the technical lead for the backend of the <a href="http://www.ddb.de ">Deutschen Digitalen Bibliothek</a> with final go live.
+* Responsible for the design and implementation of the search engine of the Deutsche Digitale Bibliothek based on Apache Solr.
+* Researched and implemented a library that learns and applies conditional random fields
