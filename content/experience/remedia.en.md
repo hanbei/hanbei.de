@@ -11,4 +11,6 @@ weight = 1
 * Enhanced search
 * Operated the backend systems for an ecommerce application with 1.5M daily active users
 * Analyzed data ...
-* Parsed and made millions of offers searchable
+* Parsed and made millions of offers searchable using elasticsearch
+* Introduced kafka, setup and operated kafka cluster
+* A/B testing

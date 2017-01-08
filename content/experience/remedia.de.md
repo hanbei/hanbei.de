@@ -8,4 +8,9 @@ website = "http://www.re-media.eu"
 skills = ["MongoDB","elasticsearch","kafka"]
 weight = 1
 +++
-* Betreuung und Entwicklung des Backendsystem zur Metasuche von Produktangeboten.
+* Betrieb und Weiterentwicklung des Backendsystem zur Metasuche von Produktangeboten.
+* Die Suche verbessert
+* Daten analysiert ...
+* Millionen von offers durchsuchbar gemacht auf Basis von Elasticsearch
+* Kafka eingeführt und einen Kafka Cluster aufgesetzt und betrieben
+* A/B testing
