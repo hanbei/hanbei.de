@@ -10,3 +10,4 @@ weight = 2
 * Transformed state of the art text mining methods into marketable products.
 * Developed a method to extract relations from unstructured scanned texts.
 * Enhanced text recognition of OCR methods using image enhancing techniques.
+* Trained inhouse developer in git and test driven development.

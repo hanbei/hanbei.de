@@ -10,3 +10,4 @@ weight = 2
 * &Uuml;berf&uuml;hren von Text Mining Methoden in marktreife Produkte
 * Entwicklung einer Relationsextraktion aus gescannten unstrukturierten Texten
 * Verbesserung der Texterkennung von OCR Methoden durch entfernen von Strukturartefakten in Formularen
+* Durchführung von Inhouse Schulungen zu Git und Test Driven Development.
