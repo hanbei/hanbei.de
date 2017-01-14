@@ -9,7 +9,7 @@ skills = ["lucene","junit","svn"]
 weight = 6
 +++
 * Unit-Testing Prinzipien in die Firma eingeführt.
-* Entwurf und Realisierung eines Backup-System für die technischen Pläne
-für Wasserwerke und Kläranlagen der Berliner Wasserbetriebe. Das System erlaubt
+* Entwurf und Realisierung eines Dokumenten Management Systems für die technischen
+Pläne für Wasserwerke und Kläranlagen der Berliner Wasserbetriebe. Das System erlaubt
 die Pläne offline zu speichern und zu durchsuchen, um im Falle eines Ausfalls
 des zentralen Systems die Pläne lokal verfügbar zu haben.

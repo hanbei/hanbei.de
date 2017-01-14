@@ -9,7 +9,7 @@ skills = ["lucene","junit","svn"]
 weight = 6
 +++
 * Taught unit testing to the company
-* Designed and implemented a backup system that stores, displays and
+* Designed and implemented a document management system that stores, displays and
 enables to search the technical documentation for waterworks and sewage works
 of the Berliner Wasserbetriebe. Each work was enabled to store their
 specific plans locally, in case of unavailability of the central database.

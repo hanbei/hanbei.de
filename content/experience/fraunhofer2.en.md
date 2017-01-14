@@ -8,6 +8,6 @@ website = "https://www.iais.fraunhofer.de/"
 weight = 4
 skills=["Data Mining","Natural Language Processing","Distributed Systems","Graph theory"]
 +++
-* Designed and implemented an autonomous agent system that automatically evaluates texts and supports pupils in an online learning environment.
+* Designed and implemented a distributed autonomous agent system that automatically evaluates texts and supports pupils in an online learning environment.
 * Wrote EU-Project reports and recited the project results in the annual meetings of the EU commission.
 * Thesis about "Topic changes in texts over time" (<a href="https://github.com/hanbei/centime">centime</a>).

@@ -1,22 +1,21 @@
 baseurl = "http://staging.hanbei.de/"
 #languageCode = "en-us"
-title = "My New Hugo Site"
 theme = "hanbei"
 
 DefaultContentLanguage = "en"
 
 [Languages.en]
     weight = 1
-    title = "Test (en)"
+    title = "Florian Schulz - software and data engineer"
     me = "Florian Schulz - software and data engineer"
-    slogan = "Software Systeme"
+    slogan = "Evolving software to its full potential"
 
 
 [Languages.de]
     weight = 2
-    title = "Test (de)"
+    title = "Florian Schulz - software and data engineer"
     me = "Florian Schulz - software and data engineer"
-    slogan = "Software Systeme"
+    slogan = "Evolving software to its full potential"
 
 [params]
   image = "/images/me.jpeg"
