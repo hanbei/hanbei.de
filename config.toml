@@ -19,7 +19,7 @@ DefaultContentLanguage = "en"
 
 [params]
   image = "/images/me.jpeg"
-  mail = "hanbei@hanbei.de"
+  mail = "contact@hanbei.de"
   linkedin = "https://de.linkedin.com/in/florian-schulz-580b3491"
   github = "https://github.com/hanbei"
   twitter = "https://twitter.com/flschlz"
