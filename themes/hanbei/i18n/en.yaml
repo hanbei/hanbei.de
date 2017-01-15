@@ -4,6 +4,9 @@
 - id: language2
   translation: German
 
+- id: aboutme
+  translation: About me
+
 - id: values
   translation: Values
 

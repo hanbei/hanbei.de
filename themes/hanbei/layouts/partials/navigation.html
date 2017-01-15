@@ -34,7 +34,7 @@
                     {{ printf "%s%s" .Site.BaseURL "" | printf "%s" | chomp }}
                   {{ else }}
                     {{ printf "%s%s/%s" .Site.BaseURL .Site.Language.Lang "" | printf "%s" | chomp }}
-                  {{ end }}">{{ T "values" }}</a></li>
+                  {{ end }}">{{ T "aboutme" }}</a></li>
                 <li><a href="{{ if eq .Site.Language.Lang "en" }}
                   {{ printf "%s%s" .Site.BaseURL "experience" | printf "%s" }}
                 {{ else }}
