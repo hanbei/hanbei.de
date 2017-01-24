@@ -13,6 +13,15 @@
 - id: experience
   translation: Erfahrung
 
+- id: aboutme_text
+  translation: |
+    Ich habe 13 Jahre Erfahrung in der Software-Entwicklung. Ich interessiere
+    mich für die Programmierung von getestetem clean code, die Bereitstellung
+    von Informationen durch Suchmaschinen und maschinelles Lernen, die
+    Entwicklung von Software-Systemen und Entwicklungsprozessen, so dass sie
+    ihrem Nutzer möglichst hilfreich zur Seite stehen.
+
+
 - id: skills
   translation: Technologien
 

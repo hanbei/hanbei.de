@@ -14,29 +14,25 @@
                         <i class="fa fa-2x fa-envelope"></i>
                     </a>
                 </li>
-                {{ end }}
-                {{ if (isset .Site.Params "github") }}
+                {{ end }} {{ if (isset .Site.Params "github") }}
                 <li>
                     <a href="{{ .Site.Params.github }}">
                         <i class="fa fa-2x fa-github"></i>
                     </a>
                 </li>
-                {{ end }}
-                {{ if (isset .Site.Params "twitter") }}
+                {{ end }} {{ if (isset .Site.Params "twitter") }}
                 <li>
                     <a href="{{ .Site.Params.twitter }}">
                         <i class="fa fa-2x fa-twitter"></i>
                     </a>
                 </li>
-                {{ end }}
-                {{ if (isset .Site.Params "linkedin") }}
+                {{ end }} {{ if (isset .Site.Params "linkedin") }}
                 <li>
                     <a href="{{ .Site.Params.linkedin }}">
                         <i class="fa fa-2x fa-linkedin"></i>
                     </a>
                 </li>
-                {{ end }}
-                {{ if (isset .Site.Params "xing") }}
+                {{ end }} {{ if (isset .Site.Params "xing") }}
                 <li>
                     <a href="{{ .Site.Params.xing }}">
                         <i class="fa fa-2x fa-xing"></i>
@@ -50,5 +46,14 @@
         </div>
         <div class="col-md-4">
         </div>
+    <!-- </div>
+    <div class="row"> -->
+        <div class="col-md-4"></div>
+        <div class="col-md-8">
+            <!-- <h2 class="text-center">About Me</h2> -->
+            <div class="text-justify">
+                {{ T "aboutme_text" }}
+            </div>
+            <!-- <div class="col-md-3"></div> -->
+        </div>
     </div>
-</div>

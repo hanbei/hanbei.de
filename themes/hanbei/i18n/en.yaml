@@ -16,6 +16,14 @@
 - id: skills
   translation: technologies
 
+- id: aboutme_text
+  translation: |
+    I have about 13 years experience in software development. I'm
+    interested in programming clean, tested code, making information
+    available through searching engines and machine learning,
+    evolving software systems and development processes so they are
+    the most helpful to their users.
+
 - id: excellence_header
   translation: Striving for excellence
 
